@@ -1,0 +1,34 @@
+body {
+    font-family: "Josefin Sans";
+    font-size:25pt;
+    background-color: #2F6396;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Yeseva One";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #1C9499;
+    padding: 10px;
+    
+}
+
+footer {
+    font-size: 20pt;
+}
+
+#hero img {
+    width:400px;
+}
+
+#bio {
+    text-align: center;
+}
