@@ -1,8 +1,12 @@
 body {
     font-family: "Josefin Sans";
-    font-size:25pt;
+    font-size:20pt;
     background-color: #2F6396;
     color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +19,10 @@ h1 {
     font-size: 40pt;
 }
 
+h2 {
+    margin: .1em;
+}
+
 header {
     text-align: center;
 }
@@ -24,7 +32,8 @@ header {
     text-align: center;
     background-color: #1C9499;
     padding: 10px;
-    margin: 80px;
+    margin: 11rem;
+    
     
 }
 
@@ -35,7 +44,7 @@ footer {
 /* Hero Section */
 
 #hero img {
-    width:400px;
+    width:100%;
 }
 
 /* Bio Section */
@@ -52,7 +61,7 @@ footer {
     background-color: #E3B432;
     text-align: center;
     padding:10px;
-    margin:140px;
+    margin:12rem;
 }
 
 /* Gallery */
@@ -60,7 +69,7 @@ footer {
 #gallery {
     border: 30px double #1C9499;
     padding:10px;
-    margin:60px;
+    margin: 10rem;
 }
 
 #gallery img {
@@ -76,7 +85,7 @@ footer {
 #lit {
     border: 30px double #1C9499;
     margin-bottom:2rem;
-    margin:20px;
+    margin: 9rem;
 }
 
 #lit div {
@@ -99,6 +108,25 @@ footer {
     padding:.25em;
     margin-right:.25em;
     line-height:.65;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        margin-left: 1rem;
+    }
+
+    #hero img {
+        width:400px;
+    }
 }
 
 
