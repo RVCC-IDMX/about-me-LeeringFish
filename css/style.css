@@ -101,7 +101,7 @@ footer {
 
 /* Dropcaps */
 
-#lit div p:nth-child(6n+1):first-letter {
+#lit div p:first-child:first-letter {
     color:red;
     float:left;
     font-size: 3em;
@@ -109,6 +109,8 @@ footer {
     margin-right:.25em;
     line-height:.65;
 }
+
+/* tablet size */
 
 @media screen and (min-width: 60em) {
     figure {
@@ -126,6 +128,38 @@ footer {
 
     #hero img {
         width:400px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+}
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    hr {
+        display:none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
     }
 }
 
