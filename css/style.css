@@ -156,6 +156,12 @@ li {
     font-style: italic;
 }
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+    text-align: left;
+}
 
 /* tablet size */
 
