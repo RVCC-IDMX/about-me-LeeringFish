@@ -33,6 +33,7 @@ header {
     background-color: #1C9499;
     padding: 10px;
     margin: 11rem;
+    margin-top: 4rem;
     
     
 }
@@ -151,7 +152,8 @@ li {
 /* Video Caption */
 
 #video p {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     font-size: 26pt;
     font-style: italic;
 }
@@ -161,6 +163,54 @@ li {
 #formElements {
     display: grid;
     text-align: left;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width:55%;
+    margin: 2rem auto;
+    font-size: 15pt;
+}
+
+fieldset {
+    border: 4px solid #1C9499;
+    border-radius: 3rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 1rem 0.5rem 0.5rem black;
+}
+
+legend {
+    background-color: #1C9499;
+    color: white;
+    padding:.5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style:none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #1C9499;
+    color: white;
+    border: 3px solid black;
+    border-radius: 2rem;
+    max-width: 250 px;
+    width:50%;
+    justify-self: center;
+    box-shadow: 0.5rem 0.25rem 0.25rem black;
+    font-weight: bold;
 }
 
 /* tablet size */
@@ -201,7 +251,7 @@ li {
 
 /* large screen size */
 
-@media screen and (min-width: 100em) {
+@media screen and (min-width: 90em) {
 
     #gallery {
         display:grid;
@@ -211,6 +261,13 @@ li {
 
     hr {
         display:none;
+    }
+
+    #hobbies {
+        max-width: 45%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        
     }
 
     #gallery h2 {
@@ -223,6 +280,18 @@ li {
 
     #video {
         width: 55%
+    }
+
+    #contact button {
+        max-width: 35%;
+    }
+
+    #name, #email, #phone, #message {
+        max-width: 75%;
+    }
+
+    #phonetype {
+        max-width:77%;
     }
 }
 
