@@ -1,8 +1,8 @@
 body {
     font-family: "Josefin Sans";
     font-size:20pt;
-    background-color: #2F6396;
-    color: #000000;
+    background-color: #2B2A33;
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,17 +26,27 @@ h2 {
 header {
     text-align: center;
     width: 100%;
+    margin-bottom: 4rem;
+}
+
+header img {
+    margin: 2rem;
 }
 
 #hero, footer {
-    border: 6px solid black;
+    border: 6px solid #F2740D;
     text-align: center;
-    background-color: #1C9499;
+    background-color: #42414D;
     padding: 10px;
     margin: 11rem;
     margin-top: 4rem;
+    max-width: 40%;
+    margin: 0 auto;
     
-    
+}
+
+#hero {
+    border-radius: 3rem;
 }
 
 footer {
@@ -53,14 +63,15 @@ footer {
 
 #bio {
     text-align: center;
+    margin-top: 4rem;
 }
 
 /* Hobbies */
 
 #hobbies {
-    border: 8px solid black;
+    border: 8px solid #F2740D;
     border-radius: 30px;
-    background-color: #E3B432;
+    background-color: #42414D;
     text-align: center;
     padding:12px;
     margin:12rem;
@@ -79,7 +90,6 @@ li {
 /* Gallery */
 
 #gallery {
-    border: 30px double #1C9499;
     padding:10px;
     margin: 10rem;
 }
@@ -95,7 +105,7 @@ li {
 /* Literature */
 
 #lit {
-    border: 30px double #1C9499;
+    border: 30px double #F2740D;
     margin-bottom:2rem;
     margin: 9rem;
 }
@@ -175,7 +185,7 @@ li {
 }
 
 fieldset {
-    border: 4px solid #1C9499;
+    border: 4px solid #F2740D;
     border-radius: 3rem;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -183,7 +193,7 @@ fieldset {
 }
 
 legend {
-    background-color: #1C9499;
+    background-color: #F2740D;
     color: white;
     padding:.5em;
 }
@@ -205,9 +215,9 @@ legend {
 /* Submit Button */
 
 #contact button {
-    background-color: #1C9499;
+    background-color: #F2740D;
     color: white;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 2rem;
     max-width: 250 px;
     width:50%;
