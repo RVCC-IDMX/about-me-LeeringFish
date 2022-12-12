@@ -52,6 +52,10 @@ header img {
 
 footer {
     font-size: 20pt;
+    width: 100%;
+    background-color: #F2740D;
+    border: 6px solid black;
+    color: black;
 }
 
 #hero img {
