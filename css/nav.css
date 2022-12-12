@@ -83,6 +83,51 @@ main {
     border-radius: 10px;
 }
 
+/* Hamburger Icon */
+
+.hamburger {
+    
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 4rem;
+}
+
+.hamburger:before, .hamburger:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+}
+
+.hamburger:before {
+    top: -10px;
+    width: 30px;
+}
+
+.hamburger:after {
+    top: 10px;
+    width: 30px;
+}
+
+.toggle-menu {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+    
+}
+
+.hamburger, .toggle-menu {
+     display: none;
+}
+
 
 
 
@@ -111,5 +156,53 @@ such that no text wraps
 
     .logo h2 {
         font-size: 1.5em;
+    }
+}
+
+/* Hamburger Menu */
+
+@media screen and (max-width: 60em) {
+    .hamburger, .toggle-menu {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+    }
+
+    .toggle-menu {
+        top: 0;
+    }
+
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        background: #42414D;
+        width: 250px;
+        height: 100%;
+        padding-top: 65px;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: transform 300ms ease-in-out;
+    }
+
+    
+
+    .navbar-links input:checked ~ .menu {
+        right: 0;
+        transform: scale(1, 1);
+    }
+
+    .menu li {
+        width: 100%;
+    }
+
+    .menu li a {
+        padding: 30px;
+        margin-right: 2rem;
+
     }
 }

@@ -59,7 +59,7 @@ footer {
 }
 
 #hero img {
-    width:100%;
+    max-width: 90%;
     margin-top: 2rem;
 }
 
