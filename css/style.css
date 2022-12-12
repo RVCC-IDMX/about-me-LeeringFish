@@ -33,12 +33,13 @@ header img {
     margin: 2rem;
 }
 
+/* Hero Section */
+
 #hero, footer {
     border: 6px solid #F2740D;
     text-align: center;
     background-color: #42414D;
     padding: 10px;
-    margin: 11rem;
     margin-top: 4rem;
     max-width: 40%;
     margin: 0 auto;
@@ -53,10 +54,9 @@ footer {
     font-size: 20pt;
 }
 
-/* Hero Section */
-
 #hero img {
     width:100%;
+    margin-top: 2rem;
 }
 
 /* Bio Section */
