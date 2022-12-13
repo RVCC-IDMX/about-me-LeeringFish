@@ -30,6 +30,13 @@ The fonts used are Josefin Sans and Yeseva One. The font in the RF logo is Passi
 
 ## Color Scheme
 
+`#2B2A33`
+`#42414D`
+`#F2740D`
+`#ffffff`
+`#f5f5f5`
+`#000000`
+
 ## Citations
 
 Logo created using Figma.com

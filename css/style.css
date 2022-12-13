@@ -2,7 +2,7 @@ body {
     font-family: "Josefin Sans";
     font-size:20pt;
     background-color: #2B2A33;
-    color: white;
+    color: #ffffff;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -54,8 +54,8 @@ footer {
     font-size: 20pt;
     width: 100%;
     background-color: #F2740D;
-    border: 6px solid black;
-    color: black;
+    border: 6px solid #000000;
+    color: #000000;
 }
 
 #hero img {
