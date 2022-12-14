@@ -40,6 +40,9 @@ The fonts used are Josefin Sans and Yeseva One. The font in the RF logo is Passi
 ## Citations
 
 Logo created using Figma.com
+Photos in Blog section by: Filippo Bortolotto https://unsplash.com/photos/C229nrkAgUs
+                           Yang Wewe https://unsplash.com/photos/n6eblceUcnc
+                           Randall Ruiz https://unsplash.com/photos/LVnJlyfa7Zk
 
 ## License
 
